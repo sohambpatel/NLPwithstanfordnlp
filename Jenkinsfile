@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Buzz Buzz') {
+    stage('build') {
       steps {
-        echo 'this is piepline with ocean'
+        echo 'this is true and another branch'
       }
     }
 
